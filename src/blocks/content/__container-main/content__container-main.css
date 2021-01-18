@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 87%;
-    padding-bottom: 50px;
+    padding: 50px 0 50px 0;
 }
 @media screen and (max-width: 1336px) {
     .content__container-main {
