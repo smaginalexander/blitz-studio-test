@@ -1,0 +1,14 @@
+.content__container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 87%;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 1336px) {
+    .content__container-main {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+}

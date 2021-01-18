@@ -1,0 +1,12 @@
+.header__text_type_320 {
+    font-weight: 700;
+    display: none;
+}
+@media screen and (max-width: 650px) {
+    .header__text_type_320 {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+}

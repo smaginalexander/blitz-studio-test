@@ -1,0 +1,16 @@
+.header__navigation {
+    border-bottom: 1px solid #ffffff;
+    width: 92%;
+    height: 100px;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 650px) {
+    .header__navigation {
+        border: none;
+    }
+}

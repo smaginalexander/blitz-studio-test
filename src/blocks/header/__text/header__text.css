@@ -1,0 +1,16 @@
+.header__text {
+    font-family: "PT Sans";
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-right: 57px;
+}
+
+.header__text:last-child {
+    margin-right: 0;
+}
+@media screen and (max-width: 650px) {
+    .header__text {
+        display: none;
+    }
+}

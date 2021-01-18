@@ -1,0 +1,7 @@
+@import url(./__navigation/header__navigation.css);
+@import url(./__text/header__text.css);
+@import url(./__text/_type/header__text_type_320.css);
+.header {
+    position: absolute;
+    width: 100%;
+}

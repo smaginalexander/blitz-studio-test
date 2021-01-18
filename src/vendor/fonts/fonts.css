@@ -1,0 +1,9 @@
+@import "http://fonts.fontstorage.com/import/opensans.css";
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./pt_sans.woff2") format("woff2"), url("./pt_sans.woff") format("woff");
+}

@@ -1,0 +1,17 @@
+.content__navigation {
+    border-bottom: 1px solid #a1a1a1;
+    width: 92%;
+    height: 100px;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content__navigation {
+        display: none;
+    }
+}

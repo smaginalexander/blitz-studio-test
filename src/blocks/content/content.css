@@ -1,0 +1,21 @@
+@import url(./__navigation/content__navigation.css);
+@import url(./__text/content__text.css);
+@import url(./__title/container__title.css);
+@import url(./__paragraph/container__paragraph.css);
+@import url(./__container-main/content__container-main.css);
+@import url(./__person/container__person.css);
+@import url(./__photo/container__photo.css);
+@import url(./__container-text/container__container-text.css);
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1365px) {
+    .content {
+        display: block;
+        width: 99%;
+    }
+}

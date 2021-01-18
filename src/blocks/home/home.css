@@ -1,0 +1,12 @@
+@import url(./__container/home__container.css);
+@import url(./__span/home__span.css);
+@import url(./__image/home__image.css);
+
+.home {
+    background-image: url("../../image/Background.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

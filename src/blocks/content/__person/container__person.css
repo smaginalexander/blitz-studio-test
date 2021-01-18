@@ -1,0 +1,14 @@
+.container__person {
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+}
+@media screen and (max-width: 400px) {
+    .container__person {
+        font-size: 18px;
+    }
+}

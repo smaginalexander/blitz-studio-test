@@ -1,0 +1,13 @@
+.home__container {
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 53px;
+}
+@media screen and (max-width: 1150px) {
+    .home__container {
+        display: none;
+    }
+}
